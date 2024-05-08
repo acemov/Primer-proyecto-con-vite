@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+/* 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - INDEX - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+*/
+
+/* 
+º º º º º º º º º º º º HEADER º º º º º º º º º º º º 
+*/
+.header-index{
+    background-color: white;
+    padding: 24px 16px;
+}
+.header-index img{
+    width: 65.4px;
+    height: 22.67px;
+}
+.header-index{
+    display: flex;
+    justify-content: space-between;
+}
+.header-barras , .header-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-barras{
+    width: 40px;
+    height: 40px;
+}
+.header-barras i {
+    font-size: 27px;
+}
+/* 
+º º º º º º º º º º º º MAIN º º º º º º º º º º º º 
+*/
+/* 
+- - - - - - - - - - IPHONE 14 PRO - - - - - - - - - - 
+*/
+.main-index{
+    background-color: #211C24;
+    padding: 88px 16px 0 16px;
+}
+.Iphone-Text-1{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #909090;
+}
+.Iphone-Text-2,.Iphone-Text-3{
+    color: white;
+}
+.Iphone-Text-4,.Iphone-Text-5{
+    color: #909090;
+}
+.main-index img{
+    width: 100%;
+    display: block;
+}
+.Iphone-button{
+    margin: 32px 0px 48px 0px;
+}
+.Iphone-14 , .Iphone-14-PRO{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Iphone-Text-1{
+    font-size: 25px;
+}
+.Iphone-Text-2, .Iphone-Text-3{
+    font-size: 72px;
+}
+.Iphone-Text-4 , .Iphone-Text-5{
+    font-size: 17px;
+    text-align: center;
+}
+.Iphone-button{
+    width: 184px;
+    background-color: rgba(138,221,45,0);
+    border: solid white 2px;
+    border-radius: 5px;
+    padding: 16px 56px;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+.Iphone-14-PRO{
+    padding: 16px 0px;
+}
+.Iphone-Text-2 , .Iphone-Text-3 , .Iphone-Text-4 , .Iphone-Text-5{
+    margin: 0px;
+}
+/* 
+- - - - - - - - - - CASCOS 1 - - - - - - - - - - 
+*/
+.cascos1-img{
+    width: 100%;
+    padding: 40px 91.5px 24px 91.5px;
+}
+.cascos1-description{
+    margin: 0px 16px 40px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cascos1-description-2{
+    color: #909090;
+    font-size: 16px;
+    margin: 0px;
+}
+.cascos1-description-1{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.cascos1-description-1 span{
+    font-weight: bold;
+    margin: 0px;
+}
+.cascos1-description-1 p{
+    margin: 0px;
+}
+/* 
+- - - - - - - - - - GAFAS - - - - - - - - - - 
+*/
+.gafas1{
+    background-color: #353535;
+    padding: 40px 16px;
+    color: white ;
+}
+.gafas1-img{
+    width: 100%;
+}
+.gafas1-description{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gafas1-description-2{
+    color: #909090;
+    font-size: 15px;
+    margin: 0px;
+}
+.gafas1-description-1{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.gafas1-description-1 span{
+    font-weight: bold;
+}
+.gafas1-description-1 p , .gafas1-description-1 span{
+    margin: 0px;
+}
+/* 
+- - - - - - - - - - PlayStation - - - - - - - - - - 
+*/
+.PlayStation{
+    background-color: #ffffff;
+    padding: 40px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PlayStation-img{
+    width: 60%;
+    margin-bottom: 24px;
+}
+.PlayStation-description{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PlayStation-description-2{
+    color: #909090;
+    font-size: 15px;
+    margin: 0px;
+    text-align: center
+}
+.PlayStation-description-1{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.PlayStation-description-1 span{
+    font-weight: bold;
+}
+.PlayStation-description-1 p , .PlayStation-description-1 span{
+    margin: 0px;
+}
+/* 
+- - - - - - - - - - Notebook - - - - - - - - - - 
+*/
+.notebook{
+    background-color: #EDEDED;
+    padding: 40px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.notebook-img img, .notebook-img img{
+    width: 100%;
+}
+.notebook-p{
+    font-weight: bold;
+}
+.notebook-description-2{
+    color: #909090;
+    font-size: 15px;
+    margin: 0px;
+    text-align: center;
+    margin: 16px 0;
+}
+.notebook-img{
+    margin-bottom: 24px;
+}
+.notebook-description-1{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+.notebook-button{
+    background-color: rgba(138,221,45,0);
+    width: 100%;
+    padding: 16px 40px;
+    border: black solid 2px;
+    border-radius: 5px;
+}
+/* 
+º º º º º º º º º º º º FOOTER º º º º º º º º º º º º 
+*/
+
+/* 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - LOGIN - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+*/
+
+
+/* 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - CART- - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+*/
+
+/* 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - DEATIL- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+*/
+
+/* 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - REGISTER- - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+*/
